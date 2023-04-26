@@ -121,7 +121,7 @@ const quoteApp = async() => {
     
     //calculating
     try{
-        const response = await fetch('./stat.json');
+        const response = await fetch('https://github.com/a-sheeter/custom-quote/blob/main/quote.json');
         //const response = await fetch('https://statindex.wpengine.com/wp-content/stat.json');
 
         //check response
